@@ -1,0 +1,212 @@
+/* body styling */
+body{
+    background-color: #f8f9fa;
+}
+
+.login_container{
+    height: 100vh;
+  
+    
+}
+
+.login_wrapper{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://afyaswift.ug/shop/dash/assets/img/pharma.png");
+}
+
+ .container{
+    /* max-width: 960px; */
+    display: flex;
+    /* margin:auto; */
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+
+.login {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 1.875rem auto;
+    max-width: 800px;
+    min-height: 500px;
+    width: 100%;
+
+}
+
+.left_login{
+    background: linear-gradient(180deg, #1b5a90, #00d0f1);
+    align-items: center;
+    border-radius: 6px 0 0 6px;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+
+}
+
+.right_login{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px !important;
+    width: 100%;
+}
+
+.right_login_wrapper{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.login-or
+    {
+        color: #a0a0a0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: relative;
+    }
+
+    .or-line {
+        background-color: #e5e5e5;
+        height: 1px;
+        margin-bottom: 0;
+        margin-top: 0;
+        display: block;
+    }
+
+ h1{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+    margin-top: 0;
+  
+}
+.or-line{
+     
+    color:0.1px solid #ccc;
+}
+
+.input{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit{
+    width: 100%;
+    background-color: #4ec4ec;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lnk{
+    align-items: center;
+    text-align: center;
+    margin-top: 3px;
+    
+    
+}
+
+.lnk a{
+    text-decoration: none;
+
+}
+
+
+
+.para{
+    color:hwb(0 57% 43%);
+    
+}
+
+.lnk a :hover{
+    text-decoration: underline;
+    color: black;
+}
+
+span{
+    color: black;
+}
+.para span:hover{
+    text-decoration: underline;
+}
+
+*{
+    box-sizing: border-box;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .left_login{
+        display:none;
+    }
+    h1{
+        font-size: 19px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        text-align: center;
+      
+    }
+    .input{
+        padding: 6px 10px;
+        margin: 8px 0;
+    }
+    
+    .submit{
+        padding: 6px 10px;
+        margin: 8px 0;
+        cursor: pointer;
+    }
+
+    .lnk{
+        align-items: center;
+        text-align: center;
+        margin-top: 1.5px; 
+    }
+
+    .lnk a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+
+    .para{
+        color:hwb(0 57% 43%);
+        font-size: 12px;
+        
+    }
+    
+    .lnk a :hover{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    span{
+        color: black;
+    }
+
+ }
