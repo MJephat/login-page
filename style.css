@@ -1,4 +1,4 @@
-/* body styling */
+/* body styling
 body{
     background-color: #f8f9fa;
 }
@@ -16,10 +16,7 @@ body{
 }
 
  .container{
-    /* max-width: 960px; */
     display: flex;
-    /* margin:auto; */
-    /* width: 50%; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -209,4 +206,4 @@ span{
         color: black;
     }
 
- }
+ } */
