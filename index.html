@@ -1,45 +1,96 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Login page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>movie page</title>
 </head>
 <body>
-    
-    <div class="login_container">
-        <div class="login_wrapper">
-            <div class="container">
+    <div class="container">
+        <div class="inner_container">
+            <div class="login_wrapper">
+                <nav class="navbar">
+                    <div class="logo">MOVIES</div>
+                    
+                
+                    <ul class="nav-links">
+                
+                      <input type="checkbox" id="checkbox_toggle" />
+                      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
+                      <div class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li class="services">
+                          <a href="/">Categories</a>
+                
+                          <ul class="dropdown">
+                            <li><a href="/">Dropdown 1 </a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 3</a></li>
+                            <li><a href="/">Dropdown 4</a></li>
+                          </ul>
+                
+                        </li>
+                
+                        <li><a href="/">Pricing</a></li>
+                        <li><a href="/">Contact</a></li>
+                      </div>
+                    </ul>
+                  </nav>
+                  
                 <div class="login">
-                    <div class="left_login">
-                        <img src="imagelogo.png " alt="pic" />
-                    </div>
-                    <div class="right_login">
-                        <div class="right_login_wrapper">
-                            <h1>Condos Login</h1>
-                            <div class="login-or">
-                                <span class="or-line"></span>
-                            </div>
-                            <form>
-                                <input class="input" type="text" id="fname" placeholder="Email"><br>
-                                <input class="input" type="password" id="lname" placeholder="Password"><br>
-                                <button class="submit">Login</button>
-                               <div class="lnk">
-                                 <a href=""><p class="para">Forgot Password?</p></a>
-                                 </div>
-                                <div class="login-or">
-                                    <span class="or-line"></span>
-                                </div><div class="lnk">
-                                    <p class="para">Don't have an account? <span>Register</span></p>
-                                </div>
-                            </form>
+                    <form action="">
+                        <div class="form">
+                        <input class="input" type="text" placeholder="username" name="" value="">
+                       
                         </div>
-                    </div>
+                        <div class="form">
+                        <input class="input" type="password" placeholder="password" name="">
+                        </div>
+                        <div id="btn">
+                            <button class="btn">Get started</button>
+                        </div>
+                        <div class="left-lot">
+                          <p>keep logged in</p> 
+                          <!-- <input type="checkbox"
+                          id="switch"
+                          class="checkbox" />
+                          <label for="switch"
+                                  class="toggle">
+                              <span>
+                                  off    on
+                              </span> -->
+                              
+                           <br>
+                          <em>CREATE ACCOUNT?</em>
+                        </div>
+                        <div class="right-lot">
+                          <p>Forgot password?</p>
+                           <br>
+                          <em>NEED HELP?</em>
+                        </div>
+                    </form>
                 </div>
+                <footer>
+                <div class="footer-bottom">
+                  <p>copyright    </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                       <li><a href="">Movies</a></li>
+                       <li><a href="">About</a></li>
+                       <li><a href="">Contact</a></li>
+                       <li><a href="">Blog</a></li>
+                    </ul>
+                   </div>
+                 </div>
+                </footer>
             </div>
+            
         </div>
-
     </div>
 </body>
-</html> -->
+</html>
